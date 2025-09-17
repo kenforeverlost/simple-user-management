@@ -3,3 +3,6 @@
 
 # Ignore local session SQL dumps
 *.session.sql
+
+# Ignore Mac system files
+**/.DS_Store

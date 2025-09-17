@@ -106,9 +106,9 @@
               <button type="button" class="alt" id="delete-btn" data-user-id="<?php echo $id ?>" data-csrf-token="<?php echo $sessionToken ?>">Delete</button>
               <input type="submit" name="submit">
             </div>
-              <?php if (!empty($formError['fatal'])): ?>
-                <div class="error text-right"><?php echo $formError['fatal'] ?></div>
-              <?php endif; ?>
+            <?php if (!empty($formError['fatal'])): ?>
+              <div class="error text-right"><?php echo $formError['fatal'] ?></div>
+            <?php endif; ?>
           </form>
         <?php endif; ?>
       </div>

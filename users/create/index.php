@@ -77,7 +77,7 @@
             <?php echo displayFormError('phone',$formError) ?>
           </div>
           <div class="form-btn-wrap">
-              <button type="button" class="cancel" onclick="window.location.href='/users'">Back</button>
+            <button type="button" class="cancel" onclick="window.location.href='/users'">Back</button>
             <?php if (!empty($formError['fatal'])): ?>
               <span class="error mr-1"><?php echo $formError['fatal'] ?></span>
             <?php endif; ?>
