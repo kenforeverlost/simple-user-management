@@ -38,7 +38,7 @@ git clone https://github.com/kenforeverlost/simple-user-management.git
 cd simple-user-management
 ```
 
-### 🗄 Database (Docker)
+### Database (Docker)
 
 1. Start a MySQL container:
 
